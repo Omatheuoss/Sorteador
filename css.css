@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'font';
+    src: url(./fonte/Roboto-Light.ttf);
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'font';
+}
+
+
+body{
+    background-color: #0b2447;
+    
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30vh; 
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    width: 280px;
+    margin-left: 40%;
+    padding: 50px;  
+}
+
+.sorteio{
+    padding: 10px;
+    background-color: ;
+    border-radius: 10px;
+    color: black;
+}
+
+h2{
+    color: #0b2447;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'font';
+    font-size: 20px; 
+
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: #0b2447;
+    color: hsl(0, 0%, 100%);
+   
+  }
+  
+button:active {
+    letter-spacing: 3px;
+    background-color: #0b244757;
+    color: hsl(0, 0%, 100%);
+    transform: translateY(10px);
+    transition: 100ms;
+}
+  
+#resultado{
+    font-family: 'font';
+    font-size: 27px;
+}
+
