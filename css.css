@@ -75,3 +75,15 @@ button:active {
     font-size: 27px;
 }
 
+@media (max-width: 730px) {
+    .conteiner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 5px;
+        border-radius: 7px;
+        max-width: 264px;
+        margin-top: 12vh;
+    }
+}
